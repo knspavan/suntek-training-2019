@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+int x,n,i,p=1;
+printf("enter x and n values");
+scanf("%d%d",&x,&n);
+for(i=0;i<n;i++)
+{
+p=p*x;
+}
+printf("%d",p);
+return 0;
+}
